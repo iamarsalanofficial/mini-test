@@ -92,7 +92,17 @@ body{
 }
 
 .cards_section{
-    margin-left: 20px !important;
+    /* margin-left: 20px !important; */
+    display: flex;
+    justify-content: space-around;
+    width: 50rem;
+    margin: auto;
 }
+.btn{
+    float: right !important;
+    color: blue !important;
+    background-color: white !important;    
+}
+
 
 /* End Carousel */
