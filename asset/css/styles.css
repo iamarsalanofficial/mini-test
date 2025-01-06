@@ -1,0 +1,98 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar{
+    background-color: white;
+    /* height: 0vh; */
+    box-shadow: 2px 2px rgb(65, 65, 66);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.toggele_button{
+    cursor: pointer;
+}
+.logo{
+    font-size: 2rem;
+    color: rgb(84, 24, 15);
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.logo>a{
+    color: inherit;
+    text-decoration: none;
+}
+.user_cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user_cart>a{
+    text-decoration: none;
+}
+.user_cart>a>img{
+    width: 30px;
+    height: 30px;
+}
+.user_cart>a>h4>img{
+    width: 30px;
+    height: 30px;
+}
+.badge{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    /* border-radius: 50%; */
+}
+
+/* End Navbar */
+
+
+/* Start Carousel */
+.main_divider{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left>h2{
+    color: rgb(84, 24, 15);
+    font-size: 4rem;  
+    margin: 80px 40px 0 80px;      
+}
+.button{
+    margin: 0px;
+    padding: 20px 80px;
+    
+}
+.order_button{
+    background-color: rgb(186, 47, 26);
+    color: white;
+    width: 280px !important;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border:none !important;
+    cursor: pointer;
+    gap: 10px;    
+}
+.devlivery_button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(186, 47, 26);
+    width: 280px !important;
+    padding: 10px 20px;
+    border-radius: 45px;
+    border: 1px solid rgb(232, 69, 44)d;
+    cursor: pointer;
+    margin-top: 10px;   
+}
+
+.cards_section{
+    margin-left: 20px !important;
+}
+
+/* End Carousel */
